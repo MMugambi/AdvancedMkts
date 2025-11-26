@@ -13,7 +13,7 @@ try:
     from config import CSV_FILE_PATH, TOXICITY_THRESHOLD_SECONDS
     DEFAULT_FILE_PATH = CSV_FILE_PATH
 except ImportError:
-    DEFAULT_FILE_PATH = "AugSept copy.csv"
+    DEFAULT_FILE_PATH = "AugSept.csv"
     TOXICITY_THRESHOLD_SECONDS = 60
 
 # Page config
