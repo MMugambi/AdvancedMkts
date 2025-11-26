@@ -1,10 +1,10 @@
 
 
-CSV_FILE_PATH = "AugSept copy.csv"
+CSV_FILE_PATH = "AugSept.csv"
 
 # You can also set multiple file paths and switch between them
 ALTERNATIVE_PATHS = {
-    "august_september": "AugSept copy.csv",
+    "august_september": "AugSept.csv",
     "full_year": "full_year_trades.csv",
     "q1_data": "Q1_2025.csv",
 }
