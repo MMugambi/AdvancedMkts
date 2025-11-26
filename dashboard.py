@@ -208,7 +208,7 @@ def main():
         trades = load_and_process_data(file_path)
         
         # Show file info
-        file_size = os.path.getsize(file_path) / 1024  # KB
+        file_size = os.path.getsize(file_path) / 1024  
         file_modified = datetime.fromtimestamp(os.path.getmtime(file_path))
         
         
